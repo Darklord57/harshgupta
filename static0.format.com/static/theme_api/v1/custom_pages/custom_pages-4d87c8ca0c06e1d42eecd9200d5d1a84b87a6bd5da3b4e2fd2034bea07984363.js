@@ -1,0 +1,1 @@
+_4ORMAT.$(function(){var o=_4ORMAT.$,t=function(){o("._4ORMAT_content_page_row").each(function(){var t=o(this).offset().top,i=t+o(this).outerHeight(),n=o(window).scrollTop(),s=n+o(window).height();i>n&&(t<s||s==document.body.scrollHeight)&&(o(this).hasClass("in-viewport")||o(this).addClass("in-viewport"))})};t(),o([window,document.body]).on("scroll",function(){t()})});
